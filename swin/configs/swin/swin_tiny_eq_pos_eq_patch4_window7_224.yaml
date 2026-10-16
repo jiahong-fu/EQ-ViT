@@ -1,0 +1,10 @@
+MODEL:
+  TYPE: swin_eq_pos_eq_pm_conv
+  NAME: swin_tiny_eq_pos_eq_patch4_window7_224_192embed_dim_patchmerging_conv
+  DROP_PATH_RATE: 0.2
+  SWIN:
+    EMBED_DIM: 192
+    DEPTHS: [ 2, 2, 6, 2 ]
+    NUM_HEADS: [ 3, 6, 12, 24 ]
+    WINDOW_SIZE: 7
+    # TRANNUM: 4

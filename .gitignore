@@ -1,0 +1,40 @@
+# Python, environments, and build products
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+*.so
+*.o
+
+# Local datasets and experiment artifacts (keep the source directories named data)
+ImageNet1K/
+imagenet/
+datasets/
+output/
+outputs/
+checkpoints/
+wandb/
+runs/
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.log
+log_rank*.txt
+events.out.tfevents.*
+
+# Local settings
+.DS_Store
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.env
+.env.*

@@ -1,0 +1,7 @@
+# Install torch==2.4.0 and torchvision==0.19.0 for your CUDA version first.
+# Then install this modified timm package with: python -m pip install -e .
+numpy==1.26.3
+PyYAML==6.0.2
+Pillow==11.0.0
+huggingface_hub==0.29.1
+safetensors==0.5.3
