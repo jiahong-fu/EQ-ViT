@@ -7,8 +7,6 @@ Implementation of **Vanilla Group Equivariant Vision Transformer**, including eq
 | [`swin/`](swin/) | Swin baselines, EQ-Swin, configurations, training and evaluation | [`swin_transformer_eq_pos_eq_patchmerging_conv.py`](swin/models/swin_transformer_eq_pos_eq_patchmerging_conv.py) |
 | [`vit/`](vit/) | Modified `timm` package, ViT baselines, EQ-ViT, training and evaluation | [`vision_transformer_eq_norm_eq.py`](vit/timm/models/vision_transformer_eq_norm_eq.py) |
 
-The Swin reproduction below uses **Swin-Tiny-EQ with embedding dimension 192**. Swin-Small and Swin-Base experiments were not run due to compute limits. The ViT command trains `vit_small_eq_patch16_224`; Tiny and Base EQ model definitions are also included.
-
 ## Data and checkpoints
 
 Prepare ImageNet-1K using the standard class-folder layout:
